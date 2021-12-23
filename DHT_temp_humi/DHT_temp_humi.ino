@@ -11,9 +11,9 @@ void loop() {
   int temp = my_sensor.readTemperature();
   int humi = my_sensor.readHumidity();
 
-  Sriaal.print("Temperature:");
+  Serial.print("Temperature:");
   Serial.print(temp);
   Serial.print("/");
   Serial.print("Humidity:");
-  Serail.println(humi);
+  Serial.println(humi);
 }
